@@ -12,12 +12,8 @@
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
     <style>
-        .container-fluid#navDesign
-        {
-            text-align:center;
-        }
-
-
+    /*<!-- testing -->*/
+    
     </style>
 </head>
 <body>
