@@ -13,13 +13,27 @@
     </asp:ContentPlaceHolder>
     <style>
     /*<!-- testing -->*/
-    
+    body
+    {
+        font-family:Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+        background-color: darkgrey;
+    }
+
+    .container 
+    {
+            background-color: #ffffff;
+            box-shadow: 0 4px 6px rgba(0, 0, 0.5, 0.5);
+            padding: 20px;
+            border-radius: 5px;
+            margin-top: 20px;
+    }
+
     </style>
 </head>
 <body>
     <form id="form1" runat="server">
         <div>
-        <h1 style="color:red; text-align:center">Master Page</h1>
+        <h1 style="color:black; text-align:center;">Pet Medicine Ordering System</h1>
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
           <div class="container-fluid" id="navDesign">
             <a class="navbar-brand" href="Default.aspx">Home</a>
@@ -29,13 +43,16 @@
             <div class="collapse navbar-collapse" id="navbarNav">
               <ul class="navbar-nav">
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="Default.aspx">Default</a>
+                  <a class="nav-link" aria-current="page" href="Default.aspx">Create Medicine Order</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="PageTwo.aspx">Page Two</a>
+                  <a class="nav-link" href="PageTwo.aspx">Customer Service</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="PageThree.aspx">Page Three</a>
+                  <a class="nav-link" href="PageThree.aspx">Order Details</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="PageFour.aspx">Medicine Status</a>
                 </li>
               </ul>
             </div>
