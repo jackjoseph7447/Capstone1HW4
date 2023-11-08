@@ -48,7 +48,7 @@
                   <a class="nav-link" href="PageTwo.aspx">Customer Service</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="PageThree.aspx">Page Three</a>
+                  <a class="nav-link" href="PageThree.aspx">Order Details</a>
                 </li>
               </ul>
             </div>
