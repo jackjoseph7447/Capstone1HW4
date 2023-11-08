@@ -3,6 +3,7 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div class="container">
+        <h5>Your Order Details</h5>
         <div class="alert alert-info" role="alert">
             Your order has been placed. Here is your info:
         </div>

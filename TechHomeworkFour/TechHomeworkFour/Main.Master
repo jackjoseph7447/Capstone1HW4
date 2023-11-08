@@ -16,6 +16,7 @@
     body
     {
         font-family:Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+        background-color: darkgrey;
     }
 
     .container 
@@ -32,7 +33,7 @@
 <body>
     <form id="form1" runat="server">
         <div>
-        <h1 style="color:red; text-align:center;">Pet Medicine Ordering System</h1>
+        <h1 style="color:black; text-align:center;">Pet Medicine Ordering System</h1>
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
           <div class="container-fluid" id="navDesign">
             <a class="navbar-brand" href="Default.aspx">Home</a>
@@ -49,6 +50,9 @@
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="PageThree.aspx">Order Details</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="PageFour.aspx">Medicine Status</a>
                 </li>
               </ul>
             </div>
